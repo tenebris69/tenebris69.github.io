@@ -553,6 +553,27 @@ Banner Content
 	margin: 0px;
 }
 
+.banner-duo {
+	padding: 120px 0px 70px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.banner-duo h3 {
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.banner-duo h4 {
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 4px;
+	color: #fff;
+	margin: 0px;
+}
+
 .banner-time {
 	border: 2px solid#fff;
 	background: #eee;
@@ -668,7 +689,7 @@ center
 	ABOUT SECTION
 ==============================================*/
 
-#section-about {
+.section-about {
 	background: #fff;
 	border-bottom: 1px solid#eee;
 }
@@ -864,28 +885,18 @@ center
 	SECTION SPEAKERS
 =================================================================================*/
 
-#section-speaker {
+.section-speaker {
 	margin-bottom: 20px;
 }
 
 .grey{
 	background: #F4F5F5;
-	padding-top: 0px;
 }
 
-.section-padding .blue{
-	background: #34A1EF ;
-	padding-top: 0px;
-}
-
-.white{
+.section-speaker .white{
 	background: #F4F5F5;
 }
 
-
-#section-speaker .section-heading {
-	padding-top: 100px;
-}
 
 .speaker-box {
 	margin-bottom: 25px;
@@ -1039,6 +1050,10 @@ center
 	margin: 0 auto 50px;
 }
 
+.section-heading .two p {
+	padding-top: 100px;
+}
+
 .section-heading h3 {
 	text-transform: none;
 }
@@ -1046,7 +1061,7 @@ center
 /*=====================================================
     SECTION TASKS
 ==========================================================*/
-#section-tasks {
+#publication {
 	width: 100%;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -1168,7 +1183,7 @@ center
 	padding-top: 80px;
 }
 
-#section-contact {
+.section-contact {
 	padding-bottom: 90px;
 }
 

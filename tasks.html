@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>PolEval 2018 - Tasks</title>
+	<!-- MAIN CSS FILES===================================
+	======================================================= -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/line-icons.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/css/owl.transitions.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- CUSTOM STYLE	-->
+	<link id="theme" rel="stylesheet" href="assets/css/theme.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- .theme-option-->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!-- .site-header-navbar-->
+	<header id="masthead" class="site-header site-header-fixed-top">
+		<nav id="siteHeaderNavbar" class="site-header-navbar navbar navbar-lg navbar-fixed-top  navbar-bg-from-transparent navbar-fg-from-light navbar-default">
+			<!-- Navigation -->
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header ">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+						<a class="navbar-brand page-scroll " href="#page-top">
+							<i class="icon icon-lightbulb"></i> PolEval </a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse  navbar-main-collapse navbar-right">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#main-banner" class="page-scroll">Home</a></li>
+							<li><a class="page-scroll" href="index.html#about">About</a></li>
+							<li><a href="tasks.html">Tasks</a></li>
+							<li><a href="prizes.html">Prizes</a></li>
+							<li><a class="page-scroll" href="index.html#publication">Publication</a></li>
+							<li><a class="page-scroll" href="results">Results</a></li>
+							<li><a class="page-scroll" href="#organizers">Organizers</a></li>
+						</ul>
+						<div class="navbar-btn navbar-right"> 
+							<a class="page-scroll btn btn-feature navbar-link" href="#footer">Contact</a> 
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.navbar-collapse -->
+		</nav>
+		<!-- /.container -->
+	</header>
+	<!-- .site-header-navbar-->
+	
+	<!--  banner slider end  -->
+	<section id="main-banner">
+		<div class="bg-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="banner-duo text-center">
+						<h3 class="lg-title wow fadeInLeft">Tasks</h3>
+					</div>
+				</div>
+			</div><!-- row end  -->
+		</div><!-- container end  -->
+	</section>
+	<!-- section slider end	-->
+	
+		<!--  section SPEAKERS start  -->
+	<section id="task1" class="section-speaker white section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-heading">
+						<h2>Task 1</h2>
+						<h3>POS Tagging</h3>
+						<p>There is an ongoing discussion whether the problem of part of speech tagging is already solved, at least for English (see Manning 2011), by reaching the tagging error rates similar or lower than the human inter-annotator agreement, which is ca. 97%. In the case of languages with rich morphology, such as Polish, there is however no doubt that the accuracies of around 91% delivered by taggers leave much to be desired and more work is needed to proclaim this task as solved.</p>
+<p>The aim of this proposed task is therefore to stimulate research in potentially new approaches to the problem of POS tagging of Polish, which will allow to close the gap between the tagging accuracy of systems available for English and languages with rich morphology.</p>
+<a href="#task2" class="read-more">Go to Task 2</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="section-heading">
+						<h4>Task definition</h4>
+<h5>Subtask (A): Morphosyntactic disambiguation and guessing</h5>
+<p>Given a sequence of segments, each with a set of possible morphosyntactic interpretations, the goal of the task is to select the correct interpretation for each of the segments and provide an interpretation for segments for which only 'ign' interpretation has been given (segments unknown to the morphosyntactic dictionary).</p>
+<h5>Subtask (B): Lemmatisation</h5>
+<p>Given a sequence of segments, each with a set of possible morphosyntactic interpretations, the goal of the task is to select the correct lemma for each of the segments&nbsp;and provide a lemma for segments for which only 'ign' interpretation has been given (segments unknown to the morphosyntactic dictionary).</p>
+<h5>Complete system (C): POS tagging</h5>
+<p>Given a raw text in Polish, the goal of the task is to segment the text by separating individual flexemes and provide the correct lemma and POS tag for each of the segments.</p>
+					</div>
+				</div>
+									</div>
+							</div>
+						</div>
+					</div><!-- row end  -->
+				</div>
+			</div>
+		</div><!-- container end  -->
+	</section>
+	<!--  section SPEAKERS end  -->
+
+
+	
+	
+	<!--  section SPEAKERS start  -->
+	<section id="" class="section-speaker section-padding grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+						<div class="section-heading">
+							<h4>Training data</h4>
+<p><strong>June 12: training data is published.</strong></p>
+<p><a href="http://poleval.pl/task1/train-raw.txt.gz">train-raw.txt.gz</a> - Raw text</p>
+<p><a href="http://poleval.pl/task1/train-analyzed.xml.gz">train-analyzed.xml.gz</a> - The text after morphosyntactic analysis (processed with Morfeusz analyzer).</p>
+<p><a href="http://poleval.pl/task1/train-gold.xml.gz">train-gold.xml.gz</a> - Gold standard - segmented and manually POS-tagged data in XCES format.</p>
+<h4>Test data</h4>
+<p><strong><strong>July 31: the test data is published.</strong><br></strong></p>
+<p><a href="http://poleval.pl/task1/test-analyzed.xml.gz">test-analyzed.xml.gz</a> - Subtask (A) and (B) test data</p>
+<p><a href="http://poleval.pl/task1/test-raw.txt.gz">test-raw.txt.gz</a> - Subtask (C) test data</p>
+<h4>Evaluation script</h4>
+<p>Please use the linked <a href="http://poleval.pl/task1/tagger-eval.py">tagger-eval.py</a> script to evaluate the performance of your method against the provided training data. We will use the same script to assess the accuracy of the submitted algorithms against the final test data.</p>
+<p>The script requires <a href="http://nlp.pwr.wroc.pl/redmine/projects/corpus2/wiki">corpus2 library</a> to be installed on your system. Please read the linked wiki page for further installation instructions.</p>
+<h4>Evaluation procedure</h4>
+<h5>Subtask (A): Morphosyntactic disambiguation and guessing</h5>
+<p>Given (train/test)-analyzed.xml.gz file you should provide a corpus in XCES format, which contains disambiguated POS tags for each of the segments (see train-gold.xml.gz for a reference). For the system evaluation <span style="text-decoration: line-through;">you should provide</span>&nbsp;we will calculate 3 key statistics: the accuracy of the system in selecting the correct tag for known words (segments, for which some interpretations have been provided in the *-analyzed.xml.gz file), the accuracy of the system in guessing the tags for unknown words (segments, for which only 'ign' interpretation has been given in the *-analyzed.xml.gz file) and the overall system accuracy.</p>
+					</div>
+										</div>
+				<div class="col-md-6">
+					<div class="section-heading">
+						
+<h5>Subtask (B): Lemmatisation</h5>
+<p>Given (train/test)-analyzed.xml.gz file you should provide a corpus in XCES format, which contains disambiguated lemmas for each of the segments (see train-gold.xml.gz for a reference). For the system evaluation <span style="text-decoration: line-through;">you should provide</span>&nbsp;we will calculate 3 key statistics: the accuracy of the system in selecting the correct lemma for known words (segments, for which some intepretations have been provided in the *-analyzed.xml.gz file), the accuracy of the system in guessing the lemmas for unknown words (segments, for which only 'ign' interpretation has been given in the *-analyzed.xml.gz file) and the overall system accuracy.</p>
+<h5>Complete system (C): POS tagging</h5>
+<p>Given raw text (train/test)-raw.txt.gz you should perform text segmentation&nbsp;and provide a corpus in XCES format, which contains disambiguated POS tags and lemmas for each of the segments (see train-gold.xml.gz for a reference).</p>
+<p>For the system evaluation <span style="text-decoration: line-through;">you should provide</span>&nbsp;we will calculate the following statistics: the accuracy of the system in selecting the correct lemma and tag for known words (segments, for which some interpretations have been provided in the *-analyzed.xml.gz file), the accuracy of the system in guessing the lemmas and tags for unknown words (segments, for which only 'ign' interpretation has been given in the *-analyzed.xml.gz file) and the overall system accuracy in selecting lemmas and tags (6 values).</p>
+<p>In the case of a segmentation error (a particular word has been segmented differently in the gold standard and by your system), <span style="text-decoration: line-through;">you should</span>&nbsp;we will count that word as tagging mistake, both in the case of a POS tag and the lemma.</p>
+					</div>
+				</div>
+									</div>
+							</div>
+						</div>
+					</div><!-- row end  -->
+				</div>
+			</div>
+		</div><!-- container end  -->
+	</section>
+	<!--  section SPEAKERS end  -->
+
+
+<!--  section SPEAKERS start  -->
+	<section id="task2" class="section-speaker white section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-heading">
+						<h2>Task 2</h2>
+						<h3>Sentiment analysis</h3>
+<p>Sentiment analysis is a vital research area, approached at different levels: phrase-level (either in the context of opinion targets/aspects or phrases defined as syntactic sub-trees), sentence-level (related to the task of tweet-level analysis).</p>
+<p>The aim of this task is to promote research on this topic in the context of the Polish language, provide reference data sets to work and motivation for potentially new methods.</p>
+<a href="#task1" class="read-more">Go to Task 1</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="section-heading">
+						<h4>Task definition</h4>
+<p>Given a set of syntactic dependency trees, the goal of the task is to provide the correct sentiment for each sub-tree (phrase). Phrases correspond to sub-trees of dependency parse tree.&nbsp;The annotations assign sentiment values to whole phrases (and in some cases, sentences), regardless of their type.&nbsp;</p>
+<p>Methods applied to this task often include deep learning.&nbsp;Typically, applications compute sentiment recursively, starting from leaves and smaller phrases, then expanding to larger phrases and taking into account sentiment values already computed for their nested sub-phrases. This could be equivalent to&nbsp;&nbsp;recursively folding the tree in a bottom-up fashion.&nbsp;Sentence-level sentiment is then the value of your predictive model after folding the whole sentence.</p>
+<p>Datasets such as this one include Stanford Sentiment Treebank.</p>
+					</div>
+				</div>
+									</div>
+							</div>
+						</div>
+					</div><!-- row end  -->
+				</div>
+			</div>
+		</div><!-- container end  -->
+	</section>
+	<!--  section SPEAKERS end  -->
+
+
+	
+	
+	<!--  section SPEAKERS start  -->
+	<section id="" class="section-speaker section-padding grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+						<div class="section-heading">
+							<h4>Training data</h4>
+<p><strong>June 12: training data is published.&nbsp;</strong></p>
+<p>Data set is a selection of:</p>
+<ul>
+<li>sentiment-bearing sentences from the Skladnica treebank, dependency version.&nbsp;</li>
+<li>product reviews of two types (perfumes and clothing) with automatic dependency parse information.</li>
+</ul>
+							<p><a href="http://poleval.pl/task2/sentiment-treebank.tar.gz">sentiment-treebank.tar.gz</a>&nbsp;- for each phrase: its sentiment, dependency labels, POS, tokens</p>
+<p>Sentiment annotations for each token corresponds to the overall sentiment of the whole phrase under it and inclusive. Specifically:</p>
+<ul>
+<li>for every leaf token or word, its sentiment corresponds to this word or token's sentiment</li>
+<li>for every non-leaf token or word (node that has non-empty set of children) sentiment field describes the sentiment of the whole phrase, formed by sub-tree starting at this token (that includes this&nbsp;token and all tokens below it)</li>
+</ul>
+
+					</div>
+										</div>
+				<div class="col-md-6">
+					<div class="section-heading">
+						<h4>Test data</h4>
+<p><strong><strong>Aug 1: the test data is published.</strong><br></strong></p>
+<p><a href="http://mozart.ipipan.waw.pl/~axw/poleval/poleval_test.tar.gz">poleval_test.tar.gz</a>&nbsp;- Task 2 test data set</p>
+<h4>Evaluation script</h4>
+<p>Please use the linked&nbsp;<a href="http://mozart.ipipan.waw.pl/~axw/poleval/sent-eval.py">sent-eval.py</a>&nbsp;script to evaluate the performance of your method against the provided test data. The script expects two files passed as arguments: one wirth your results, the other with gold (reference) annotation.&nbsp;It computes micro accuracy between your system and gold annotations.&nbsp;Micro accuracy is a global sum of correctly labelled sentiment scores, over cases belonging for each class. The scripts expects data formatted exactly the same as in training data.</p>
+<p>We count sentiment scores for each leaf and each phrase. We assign the same weights (1) to all sentiment scores, regardless whether they represent sentiments of leafs, phrases or sentences. We do not distinguish between types of errors.</p>
+					</div>
+				</div>
+									</div>
+							</div>
+						</div>
+					</div><!-- row end  -->
+				</div>
+			</div>
+		</div><!-- container end  -->
+	</section>
+	<!--  section SPEAKERS end  -->
+
+	<!-- section Sponsors strat -->
+	<section id="publication">
+		<div class="container">
+			<div class="row">
+					<div class="section-heading text-center wow fadeInUp animated" style="visibility: visible;">
+						<h2>References</h2>
+					</div>
+			</div>
+			<div class="row">
+						<div class="section-heading">	
+							<h4>Task 1</h4>
+							<p>Manning, Christopher. "Part-of-speech tagging from 97% to 100%: is it time for some linguistics?." Computational Linguistics and Intelligent Text Processing (2011): 171-189.</p>
+<p>Radziszewski, Adam, and Szymon Acedański. "Taggers gonna tag: an argument against evaluating disambiguation capacities of morphosyntactic taggers." International Conference on Text, Speech and Dialogue. Springer Berlin Heidelberg, 2012.</p>
+<p>Kobyliński, Łukasz. "PoliTa: A multitagger for Polish". LREC 2014, pp. 2949–2954, Reykjavík, Iceland, 2014. ELRA.</p>
+<p>Waszczuk, Jakub. "Harnessing the CRF complexity with domain-specific constraints. The case of morphosyntactic tagging of a highly inflected language." COLING. 2012.</p>
+<p>Radziszewski, Adam. "A tiered CRF tagger for Polish." Intelligent tools for building a scientific information platform. Springer Berlin Heidelberg, 2013. 215-230.</p>
+<p>Acedański, Szymon. "A morphosyntactic Brill tagger for inflectional languages." International Conference on Natural Language Processing. Springer Berlin Heidelberg, 2010.<br>&nbsp;</p>
+<h4>Task 2</h4>
+							<p>https://nlp.stanford.edu/sentiment/treebank.html</p>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- section sponsors end -->
+	
+		<!-- section footer strat -->
+    <footer id="separator" >
+        <div class="container">
+            <div class="row">
+
+            </div><!-- row end  -->
+        </div><!-- container end  -->
+    </footer>
+    <!-- section contact address end -->
+	
+	<!-- section contact start -->
+	<section id="organizers" class="section-contact section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-heading text-center">
+						<h2>Organizers</h2>
+						<div class="row">
+						<div class="col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+							<div class="sponsor"> <a href="http://zil.ipipan.waw.pl/" target="_blank"><img src="assets/img/client/zil.png" alt="" class="img-responsive center-block"></a> </div>
+						</div>
+						<div class="col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".4s">
+							<div class="sponsor"> <a href="http://sages.com.pl" target="_blank"><img src="assets/img/client/sages.png" alt="" class="img-responsive center-block"></a> </div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- container end -->
+	</section>
+	<!-- section contact end -->
+	
+	
+	<!--  Footer start  -->
+	<section id="footer" class="section-padding overlay2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="footer-widget">
+						<h2>Contact persons</h2>
+						<p>If you have any questions regarding the competition process or the competition tasks, please write us an email.</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="text-left">
+						<table width="100%">
+							<tbody>
+								<tr style="margin: 0; padding: 0;">
+								<td style="margin: 0; padding: 0;" width="33%">
+								<ul class="contact-info">
+						<li class="info-block">
+
+							
+							<h4>Concept and<br>administrative issues</h4>
+						</li>
+								</td>
+								<td style="margin: 0; padding: 0;" width="66%">Maciej Ogrodniczuk / <a href="mailto:maciej.ogrodniczuk@ipipan.waw.pl">maciej.ogrodniczuk@ipipan.waw.pl</a><br>Institute of Computer Science, Polish Academy of Sciences</td>
+								</tr>
+								<tr style="margin: 0; padding: 0;">
+								<td style="margin: 0; padding: 0;" width="33%">
+								<li class="info-block">
+							
+							<h4>Task 1</h4>
+							<p>POS Tagging</p>
+						</li>
+								</td>
+								<td style="margin: 0; padding: 0;" width="66%">Łukasz Kobyliński / <a href="mailto:lukasz.kobylinski@ipipan.waw.pl">lukasz.kobylinski@ipipan.waw.pl</a><br>Institute of Computer Science, Polish Academy of Sciences / Sages</td>
+								</tr>
+								<tr style="margin: 0; padding: 0;">
+								<td style="margin: 0; padding: 0;" width="33%">
+								<li class="info-block">
+
+							
+							<h4>Task 2</h4>
+							<p>Sentiment Analysis</p>
+						</li>
+								</td>
+								<td style="margin: 0; padding: 0;" width="66%">Aleksander Wawer / <a href="mailto:aleksander.wawer@ipipan.waw.pl">aleksander.wawer@ipipan.waw.pl</a><br>Institute of Computer Science, Polish Academy of Sciences</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  Footer end  -->
+	
+	
+	<!-- section footer strat -->
+    <footer id="section-footer" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                	<div class="footer-content">
+                		<h4 class="wow fadeInUp">&copy; copyright reserved to Neon.2017</h4>
+					</div>
+                </div>
+            </div><!-- row end  -->
+        </div><!-- container end  -->
+    </footer>
+    <!-- section contact address end -->
+	
+	<!-- Jquery plugin files	-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing.1.3.min.js"></script>
+	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<!-- CUSTOM JS FILE	-->
+	<script src="assets/js/custom.js"></script>
+</body>
+
+</html>
