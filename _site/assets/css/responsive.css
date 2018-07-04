@@ -1,0 +1,201 @@
+/* Responsive styles
+================================================== */
+
+
+/* Large Devices, Wide Screens */
+
+@media (min-width: 1200px) {
+	.dropdown i {
+		display: none;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+
+@media (min-width: 992px) {
+	.navbar-brand i {
+		margin-right: 0px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.time-entry {
+		 display: inline-block;
+		 max-width: 110px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	p {
+		font-size: 14px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		padding: 23px 10px;
+		letter-spacing: 0px;
+	}
+	.navbar-brand i {
+		margin-right: 0px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.s-time {
+		background: transparent;
+		padding: 10px 0px;
+	}
+	.info-wrap i {
+		float: none;
+	}
+	.icon-block {
+		float: none;
+	}
+	.contact-info li {
+		margin-bottom: 50px;
+		width: 32%;
+		display: inline-block;
+	}
+	.banner-main {
+		padding-top: 120px;
+	}
+	.about-intro {
+		margin-top: 40px;
+	}
+	.about-img {
+		margin-bottom: 25px;
+	}
+	.desc-inner {
+		margin-bottom: 40px;
+	}
+	/*	==== speaker ============*/
+	.speaker-box,
+	.pricing-box,
+	.blog-box,
+	.venue-info {
+		margin-bottom: 30px;
+	}
+	.speaker-box img {
+		width: 100%;
+	}
+	
+	
+	/* countdown	*/
+	
+	.time-entry span {
+	  font-size:45px;
+	  line-height: 45px;
+	  display: inline-block;
+	}
+	.time-entry {
+	  display: inline-block;
+	  max-width: 160px;
+	  width: 100%;
+	}
+	
+	
+}
+
+
+/* Small Devices Potrait */
+
+@media (max-width: 767px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media (min-width: 480px) and (max-width:767px) {
+	p {
+		font-size: 14px;
+	}
+	.section-padding {
+		padding: 50px 0px;
+	}
+	.navbar-custom {
+		margin-top: 0px;
+		background: #333;
+		border-right: 0px;
+	}
+	.s-time {
+		background: transparent;
+		padding: 10px 20px;
+		border: 1px solid#eee;
+		text-align: left;
+	}
+	.icon-block {
+		margin-bottom: 0px;
+	}
+	.contact-info li {
+		margin-bottom: 31px;
+	}
+	.contact-info {
+		margin-bottom: 40px;
+	}
+	.banner-main {
+		padding-top: 120px;
+	}
+	.banner-main h4 {
+		width: 100%;
+		font-size: 16px;
+	}
+	.lg-title {
+		font-size: 30px;
+		line-height: 44px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+
+@media (min-width: 320px) and (max-width: 478px) {
+	p {
+		font-size: 14px;
+	}
+	.section-padding {
+		padding: 50px 0px;
+	}
+	.section-heading,
+	.download-wrap {
+		width: 100%;
+	}
+	h2 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.navbar-custom {
+		margin-top: 0px;
+		background: #333;
+		border-right: 0px;
+	}
+	/*=========== ===========*/
+	.banner-main {
+		padding-top: 120px;
+	}
+	.banner-main h4 {
+		width: 100%;
+		font-size: 16px;
+	}
+	.lg-title {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.about-img img {
+		width: 100%;
+	}
+	.about-intro {
+		margin-top: 40px;
+	}
+	.desc-inner {
+		margin-bottom: 40px;
+	}
+	/*	==== speaker ============*/
+	.speaker-box,
+	.pricing-box,
+	.blog-box,
+	.venue-info {
+		margin-bottom: 30px;
+	}
+	.speaker-box img {
+		width: 100%;
+	}
+}
