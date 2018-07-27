@@ -1155,7 +1155,7 @@ center
 
 #section-sponsors .section-heading {
 	width: 100%;
-	padding-top: 25px;
+	padding-top: 80px;
 }
 
 .sponsor-img-block.col-md-6 {
@@ -1163,7 +1163,7 @@ center
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	min-height: 650px;
+	min-height: 750px;
 	padding: 0px;
 	height: 100%;
 }
