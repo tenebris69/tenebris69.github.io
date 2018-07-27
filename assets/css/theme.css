@@ -988,6 +988,7 @@ center
 
 #section-pricing {
 	border-bottom: 1px solid#F4F5F5;
+	background: #F4F5F5;
 }
 
 .pricing-intro {
@@ -997,7 +998,7 @@ center
 
 .pricing-box {
 	text-align: center;
-	border: 1px solid#eee;
+	border: 1px solid#34A1EF;
 	padding-bottom: 50px;
 	border-radius: 5px;
 }
@@ -1154,7 +1155,7 @@ center
 
 #section-sponsors .section-heading {
 	width: 100%;
-	padding-top: 10px;
+	padding-top: 25px;
 }
 
 .sponsor-img-block.col-md-6 {
