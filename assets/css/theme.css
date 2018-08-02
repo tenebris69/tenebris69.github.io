@@ -873,13 +873,37 @@ center
 	color: #666;
 }
 
+
+.l-time {
+	background: #34A1EF ;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.l-time h4 {
+	color: #fff;
+}
+
+.b-time {
+	background: #F0F0F0;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.b-time h4 {
+	color: #666;
+}
+
 .s-time h4,
 .s-time h3,
+.l-time h4,
+.l-time h3,
+.b-time h4,
+.b-time h3,
 .desc-inner h3,
 .nav-tabs > li > a h3 {
 	font-family: "lato", sans-serif;
 }
-
 
 /*===============================================================================
 	SECTION SPEAKERS
@@ -1236,10 +1260,6 @@ center
 	color: #000;
 }
 
-.info-block.claim p {
-font-size: 10px;
-line-height: 18px;
-}
 
 /*=====================================================
     SECTION SEPARATOR
