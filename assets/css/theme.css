@@ -1371,7 +1371,7 @@ center
 	font-weight: 700;
 }
 
-.panel-default > .panel-heading > .panel-faq {
+.panel-faq {
     color: #fff;
     background-color: #34a1ef;
     border-color: #34a1ef;
