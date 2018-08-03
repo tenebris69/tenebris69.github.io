@@ -1370,3 +1370,13 @@ center
 	display: inline-block;
 	font-weight: 700;
 }
+
+.panel-default > .panel-heading > .panel-faq {
+    color: #fff;
+    background-color: #34a1ef;
+    border-color: #34a1ef;
+}
+
+.panel-faq a {
+    color: #fff;
+}
