@@ -911,6 +911,8 @@ center
 
 .section-speaker {
 	margin-bottom: 20px;
+	background: #fff;
+	border-top: 1px solid #F4F5F5;
 }
 
 .grey{
@@ -1035,7 +1037,7 @@ center
 
 .price-list {
 	padding: 10px 40px;
-	border-top: 1px solid#eee;
+	border-top: 1px solid #eee;
 }
 
 .price-list li {
