@@ -1183,6 +1183,16 @@ center
 }
 
 .sponsor-img-block.col-md-6 {
+	background: url("../img/about/blog2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	min-height: 750px;
+	padding: 0px;
+	height: 100%;
+}
+
+.partner-img-block.col-md-6 {
 	background: url("../img/about/blog3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
