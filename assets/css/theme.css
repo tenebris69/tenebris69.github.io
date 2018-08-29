@@ -1040,7 +1040,7 @@ center
 	color: white;
 }
 
-.pricing-box p, h2, {
+.pricing-box p,h2 {
 	margin: 0px;
 	text-transform: capitalize;
 	text-transform: uppercase;
@@ -1056,11 +1056,12 @@ center
 	font-size: 16px;
 	padding: 5px 0px;
 	text-transform: capitalize;
+	color: white;
 }
 
 .price {
 	padding: 25px 0px;
-	border-top: 1px solid#eee;
+	border-top: 1px solid #eee;
 	margin-bottom: 20px;
 }
 
@@ -1071,7 +1072,7 @@ center
 .price span {
 	font-size: 50px;
 	font-weight: 700;
-	color: #232323;
+	color: #fff;
 	font-size: 80px;
 }
 
