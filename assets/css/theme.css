@@ -694,6 +694,10 @@ center
 	border-bottom: 1px solid#eee;
 }
 
+.section-about .grey{
+	background: #F4F5F5;
+}
+
 .about-intro h2 {
 	margin-top: 0px;
 	margin-bottom: 30px;
@@ -716,6 +720,7 @@ center
 	padding: 25px 40px;
 	margin-top: 60px;
 }
+
 
 
 /*==================================================
@@ -1139,7 +1144,7 @@ center
 }
 
 #section-gallery {
-	background: #F4F5F5;
+	background: #fff;
 }
 
 .owl-dots span {
