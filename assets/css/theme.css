@@ -308,9 +308,9 @@ img {
 }
 
 .btn-feature:hover {
-	border-color: #232323;
+	border-color: #fff;
 	background: #fff;
-	color: #333;
+	color: rgba(156,0,123, 0.7);
 }
 
 .form-control {
@@ -1017,8 +1017,8 @@ center
 =================================================================================*/
 
 #section-pricing {
-	border-bottom: 1px solid#F4F5F5;
-	background: #F4F5F5;
+	border-bottom: 1px solid rgba(156,0,123, 0.7);
+	background: rgba(156,0,123, 0.7);
 }
 
 .pricing-intro {
@@ -1028,7 +1028,7 @@ center
 
 .pricing-box {
 	text-align: center;
-	border: 1px solidrgba(156,0,123, 0.7);
+	border: 5px solid #fff;
 	padding-bottom: 50px;
 	border-radius: 5px;
 }
@@ -1037,11 +1037,19 @@ center
 	margin: 0px;
 	text-transform: capitalize;
 	text-transform: uppercase;
+	color: white;
+}
+
+.pricing-box p, h2, {
+	margin: 0px;
+	text-transform: capitalize;
+	text-transform: uppercase;
+	color: white;
 }
 
 .price-list {
 	padding: 10px 40px;
-	border-top: 1px solid #eee;
+	border-top: 1px solid #fff;
 }
 
 .price-list li {
