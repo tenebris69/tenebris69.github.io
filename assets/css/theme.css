@@ -1037,14 +1037,6 @@ center
 	margin: 0px;
 	text-transform: capitalize;
 	text-transform: uppercase;
-	color: white;
-}
-
-.pricing-box p,h2 {
-	margin: 0px;
-	text-transform: capitalize;
-	text-transform: uppercase;
-	color: white;
 }
 
 .price-list {
@@ -1067,6 +1059,7 @@ center
 
 .price sup {
 	font-size: 24px;
+	color: white;
 }
 
 .price span {
