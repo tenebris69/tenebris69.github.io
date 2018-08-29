@@ -285,7 +285,7 @@ img {
 .btn-white {
 	border-color: #fff;
 	background: #fff;
-	color: #333;
+	color: rgba(156,0,123, 0.7);
 }
 
 .btn-black {
