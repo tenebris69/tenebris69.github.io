@@ -485,7 +485,7 @@ Banner Content
 ===========================================*/
 
 #main-banner {
-	background: url("../img/slider/bg-3.jpg") fixed 50% 50%;
+	background: url("../img/slider/bg-5.jpg") fixed 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -1037,6 +1037,7 @@ center
 	margin: 0px;
 	text-transform: capitalize;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .price-list {
@@ -1283,7 +1284,7 @@ center
 
 #separator {
 	/*	background: url("../images/bg/bg4.jpg") fixed 50% 50%;*/
-	background: url("../img/slider/bg-2.jpg") fixed 50% 50%;
+	background: url("../img/slider/bg-5.jpg") fixed 50% 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
@@ -1298,7 +1299,7 @@ center
 
 #footer {
 	/*	background: url("../images/bg/bg4.jpg") fixed 50% 50%;*/
-	background: url("../img/slider/bg-2.jpg") fixed 50% 50%;
+	background: url("../img/slider/bg-5.jpg") fixed 50% 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
