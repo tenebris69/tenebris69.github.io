@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: AI & NLP Workshop Day - take part in hands-on workshops on Artificial Intelligence and Natural Language Processing
-email: info@ainlpworkshop.com
+title: euroCRIS Meeting Warsaw 2018
+email: biuro@sages.com.pl
 description: > # this means to ignore newlines until "baseurl:"
-  AI & NLP Workshop Day is a unique opportunity to take part in one of 12 hands-on workshops concerning Artificial Intelligence, Data Science and Natural Language Processing.
+  The CRIS 2018 conference will address recent trends in the significance, position and use of Current Research Information Systems (CRIS), bringing together researchers, managers of research-performing institutions, funding agencies, research evaluators, librarians, research administrators, ICT experts and policy makers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tenebris69.github.io" # the base hostname & protocol for your site
 permalink: /blog/:title/
