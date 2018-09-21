@@ -541,7 +541,6 @@ Banner Content
 .banner-main h3 {
 	color: #fff;
 	font-weight: 700;
-	text-transform: uppercase;
 	margin-bottom: 0px;
 }
 
@@ -550,7 +549,7 @@ Banner Content
 	line-height: 28px;
 	letter-spacing: 4px;
 	color: #fff;
-	margin: 0px;
+	margin: 20px;
 }
 
 .banner-duo {
