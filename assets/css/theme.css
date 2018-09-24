@@ -545,6 +545,14 @@ Banner Content
 }
 
 .banner-main h4 {
+	line-height: 28px;
+	letter-spacing: 4px;
+	color: #fff;
+	margin: 20px;
+	font-size: 22px;
+}
+
+.banner-main p {
 	font-weight: 400;
 	line-height: 28px;
 	letter-spacing: 4px;
