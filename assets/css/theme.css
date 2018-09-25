@@ -1,6 +1,6 @@
 /*
     Template Name: NEon- event template
-    Author: Themeturn
+    Author: Themeturnut
     Author URI: 
     Description: 
     Version: 1.0
@@ -727,7 +727,11 @@ center
 	padding: 25px 40px;
 	margin-top: 60px;
 }
-
+.about-info{
+	color: black;
+	font-size: 24px;
+	font-weight: 600;
+}
 
 
 /*==================================================
