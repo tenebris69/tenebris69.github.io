@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: euroCRIS Meeting Warsaw 2018
-email: biuro@sages.com.pl
+title: euroCRIS Meeting Nijmegen 2022
+email: eurocris@eurocris.org
 description: > # this means to ignore newlines until "baseurl:"
-  The CRIS 2018 conference will address recent trends in the significance, position and use of Current Research Information Systems (CRIS), bringing together researchers, managers of research-performing institutions, funding agencies, research evaluators, librarians, research administrators, ICT experts and policy makers.
+  The CRIS 2022 conference will address recent trends in the significance, position and use of Current Research Information Systems (CRIS), bringing together researchers, managers of research-performing institutions, funding agencies, research evaluators, librarians, research administrators, ICT experts and policy makers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tenebris69.github.io" # the base hostname & protocol for your site
+url: "https://meeting.eurocris.org" # the base hostname & protocol for your site
 permalink: /blog/:title/
 
 twitter_username: poleval
